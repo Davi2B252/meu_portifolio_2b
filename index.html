@@ -203,7 +203,7 @@
         <img src="projeto1.png" alt="projeto 1"> <!--imagem do projeto-->
       </div>
       <div class="modal-footer">
-        <a href="#">Veja o projeto</a> <!--link para o projeto-->
+        <a href="https://github.com/Davi2B252/jogo-do-numero.git">Veja o projeto</a> <!--link para o projeto-->
       </div>
     </div>
   </div>
@@ -239,7 +239,7 @@
         <img src="projeto1.png" alt="projeto 1"> <!--imagem do projeto-->
       </div>
       <div class="modal-footer">
-        <a href="#">Veja o projeto</a> <!--link para o projeto-->
+        <a href="https://github.com/Davi2B252/quiz-interativo.git">Veja o projeto</a> <!--link para o projeto-->
       </div>
     </div>
   </div>
@@ -257,20 +257,33 @@
         <img src="projeto1.png" alt="projeto 1"> <!--imagem do projeto-->
       </div>
       <div class="modal-footer">
-        <a href="#">Veja o projeto</a> <!--link para o projeto-->
+        <a href="https://github.com/Davi2B252/projeto-individual.git">Veja o projeto</a> <!--link para o projeto-->
       </div>
     </div>
   </div>
 </div>
 
-
    <footer class="container py-5">
         <h2>Entre em contato</h2>
         <div>
-            <a href="https://github.com/Davi2B252"><https://github.com/Davi2B252/primeiro-projeto-html_2B.git</a>
+            <a href="https://github.com/Davi2B252">GitHub</a>
         </div>
-        <p class="my-5 text-center">Produzido por davi souza- 2B</p>
+        <p class="my-5 text-center">Produzido por &copy; Davi de souza soares - 2B</p>
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+   <script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    toggleButton.addEventListener('click', function() {
+      body.classList.toggle('dark-mode');
+
+      if(body.classList.contains('dark-mode')) {
+        toggleButton.textContent = 'Modo claro';
+      }else {
+        toggleButton.textContent = 'Modo escuro';
+      }
+    });
+   </script>
+  </body>
 </html>
